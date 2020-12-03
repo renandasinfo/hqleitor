@@ -7,10 +7,55 @@ export function Leitor() {
   return (
         <ViewPager style={styles.viewPager} initialPage={0}>
           <View key="1">
-            <Image source={require('../../assets/capa.png')}></Image>
+            <Image source={require('../../assets/capa.png')} style={{width:420,height:600, marginTop: 70}}></Image>
           </View>
           <View key="2">
-          <Image source={require('../../assets/1.png')}></Image>
+          <Image source={require('../../assets/1.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="3">
+          <Image source={require('../../assets/2.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="4">
+          <Image source={require('../../assets/3.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="5">
+          <Image source={require('../../assets/4.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="6">
+          <Image source={require('../../assets/5.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="7">
+          <Image source={require('../../assets/6.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="8">
+          <Image source={require('../../assets/7.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="9">
+          <Image source={require('../../assets/8.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="10">
+          <Image source={require('../../assets/9.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="11">
+          <Image source={require('../../assets/10.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="12">
+          <Image source={require('../../assets/11.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="13">
+          <Image source={require('../../assets/12.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="14">
+          <Image source={require('../../assets/13.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="15">
+          <Image source={require('../../assets/14.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="16">
+          <Image source={require('../../assets/15.png')} style={{width:420,height:600, marginTop: 70}}></Image>
+          </View>
+          <View key="17">
+          <Image source={require('../../assets/16.png')} style={{width:420,height:600, marginTop: 70}}></Image>
           </View>
         </ViewPager>
       );

@@ -17,15 +17,7 @@ export function Home({navigation}) {
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor:'white'}}>
           <TouchableOpacity style={styles.child1} 
               onPress={() => navigation.navigate('Leitor')}>
-              
-      
-      
               <Text>Turma da Monica</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.child1} 
-              onPress={() => navigation.navigate('Leitor')}>
-              
-              <Text>Menino Maluquinho</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.child1} 
                     onPress={() => { BackHandler.exitApp()}}>
